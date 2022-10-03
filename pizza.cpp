@@ -22,12 +22,12 @@ int main() {
     std::cin >> diameter;
 
     // process
-   sub_total = RENT + LABOUR + (diameter * COST_PER_INCH);
-   total = sub_total * (1 + HST);
+    sub_total = RENT + LABOUR + (diameter * COST_PER_INCH);
+    total = sub_total * (1 + HST);
 
-   // output
-   std::cout << "\nThe final cost is: $" << std::fixed
+    // output
+    std::cout << "\nThe final cost is: $" << std::fixed
         << std::setprecision(2) << std::setfill('0') << total << std::endl;
 
-   std::cout << "\nDone." << std::endl;
+    std::cout << "\nDone." << std::endl;
 }
