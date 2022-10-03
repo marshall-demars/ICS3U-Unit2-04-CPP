@@ -13,6 +13,7 @@ int main() {
     const float RENT = 1;
     const float LABOUR = 0.75;
     const float COST_PER_INCH = 0.5;
+    
     float diameter;
     float sub_total;
     float total;
